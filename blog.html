@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>
+            university website design 
+        </title>
+        <link rel="stylesheet" href="style.css">
+        
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <section
+            class="sub-header">
+            <nav>
+                <a href="index.html>"><img src="images/llll.jpg"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa-solid fa-xmark"  onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html"><b>HOME</b></a></li>
+                        <li><a href="about.html"><b>ABOUT</b></a></li>
+                        <li><a href="course.html"><b>COURSE</b></a></li>
+                        <li><a href="blog.html"><b>BLOG</b></a></li>
+                        <li><a href="course.html"><b>CONTACT</b></a></li>
+                    </ul>                
+                </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>Our Certificate & Online Program For 2024</h1>
+
+        </section>
+
+<!-----------------blog page content--------------->
+
+<section class="blog">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Program For 2024</h2>
+            <p>AGC College is committed to providing high-quality education through its diverse array of certificate and online programs, tailored to meet the needs of a wide range of learners and professionals. Our certificate programs are designed to deliver specialized knowledge and practical skills in focused areas, offering an excellent pathway for career advancement or transition into new fields. These programs are crafted with a comprehensive curriculum that emphasizes real-world applications, ensuring that students acquire relevant and actionable expertise. By concentrating on specific skills and knowledge, our certificate programs enable participants to gain credentials that enhance their resumes and improve their professional prospects.</p>
+            <br>
+            <p>Each certificate program at AGC College is developed with industry input, ensuring that the content is aligned with current market demands and practices. This approach not only provides students with cutting-edge knowledge but also enhances their employability by equipping them with skills that are immediately applicable in the workplace. The programs are structured to be completed in a relatively short period, allowing individuals to quickly gain new qualifications and apply them in their careers. The targeted nature of these programs means that learners can delve deeply into specific areas of interest without committing to the longer duration of traditional degree programs.</p>
+            <br>
+            <p>In addition to our robust certificate offerings, AGC College provides a range of online programs designed to offer flexibility and accessibility to learners around the globe. These online programs are ideal for those who need to balance their studies with personal or professional responsibilities. The flexibility of online learning allows students to engage with course materials at their own pace, making it possible to fit education into busy schedules. Our online programs are delivered through a dynamic platform that includes multimedia content, interactive assignments, and virtual discussions, creating an engaging and comprehensive learning experience.</p>
+            <br>
+            <p>The online programs at AGC College are designed to ensure that students receive the same high-quality education as they would in a traditional classroom setting. Each course is led by experienced instructors who bring real-world expertise and practical insights to their teaching. These instructors are dedicated to providing support and guidance throughout the learning process, helping students to achieve their educational goals and succeed in their chosen fields. The online format also includes access to a range of resources such as e-books, research databases, and online libraries, providing students with the tools they need to excel in their studies.</p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter E-mail">
+                    <textarea rows="5" placeholder="Your commenmt"></textarea>
+                    <button type="submit" class="btn readmore">
+                        POST COMMENT  
+                    
+
+                    </button>
+
+
+
+                </form> 
+            </div>
+        
+
+
+        </div>
+        <div class="blog-right">
+        <h3>Post Catagories</h3>
+        <div>
+            <span>Business Analytics</span>
+            <span>27</span>
+        </div>
+        <div>
+            <span>Machine Learning</span>
+            <span>47</span>
+        </div>
+        <div>
+            <span>Data Science</span>
+            <span>22</span>
+        </div>
+        <div>
+            <span>Computer Science</span>
+            <span>12</span>
+        </div>
+        <div>
+            <span>Journalism </span>
+            <span>17</span>
+        </div>
+        <div>
+            <span>AutoCAD</span>
+            <span>27</span>
+        </div>
+        <div>
+            <span>Commerce</span>
+            <span>24</span>
+        </div>
+        <div>
+            <span>Digital Marketing</span>
+            <span>33</span>
+        </div>
+        </div>
+
+
+    </div>
+</section>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+<!--------footer------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to AGC College, where academic excellence meets a vibrant community of learners and innovators.<br> Established with a vision to cultivate talent and foster intellectual curiosity,<br> AGC College is dedicated to providing a transformative<br> educational experience.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made by me <i class="fa-regular fa-heart"></i> for College Project</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!-----javascript for toggle menu----->
+        <script>
+                     var navlinks = document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+            }
+
+
+
+
+        </script>
+    </body>
+</html>
+
